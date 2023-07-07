@@ -1,0 +1,12 @@
+.selected {
+  background-color: black;
+  color: white;
+}
+
+ul.factions li {
+  cursor: pointer;
+}
+
+ul.factions li:hover {
+  text-decoration: underline;
+}

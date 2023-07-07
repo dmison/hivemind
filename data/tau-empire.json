@@ -1,0 +1,533 @@
+{
+  "name": "Tau Empire",
+  "colour": "#355761",
+  "text": "#ffffff",
+  "detachments": [
+    {
+      "name": "Kauyon",
+      "restrictions": [
+        {
+          "has": {
+            "keyword": "Commander Farsight"
+          },
+          "no": {
+            "keyword": "Ethereal"
+          }
+        },
+        {
+          "has": {
+            "keyword": "Ethereal"
+          },
+          "no": {
+            "keyword": "Commander Farsight"
+          }
+        }
+      ]
+    }
+  ],
+  "datacards": [
+    {
+      "name": "Commander Shadowsun",
+      "points": {
+        "1": 140
+      },
+      "keywords": [
+        "Infantry",
+        "Fly",
+        "Character",
+        "Epic Hero",
+        "Battlesuit",
+        "Commander Shadowsun"
+      ],
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "stats": [
+        "10\"",
+        "4",
+        "3+",
+        "6",
+        "6+",
+        "1"
+      ],
+      "invul": "5+",
+      "invulv_notes": "",
+      "ranged": [
+        [
+          "Flechette launcher",
+          [],
+          "18",
+          "5",
+          "2+",
+          "3",
+          "0",
+          "1"
+        ],
+        [
+          "High-energy fusion blaster",
+          [
+            "MELTA2"
+          ],
+          "18",
+          "1",
+          "2+",
+          "10",
+          "4",
+          "D6"
+        ],
+        [
+          "Light missile pod",
+          [],
+          "24",
+          "2",
+          "2+",
+          "7",
+          "0",
+          "2"
+        ],
+        [
+          "Pulse Pistol",
+          [
+            "PISTOL"
+          ],
+          "12",
+          "1",
+          "3+",
+          "5",
+          "0",
+          "1"
+        ]
+      ],
+      "melee": [
+        [
+          "Battlesuit fists",
+          [],
+          "Melee",
+          "3",
+          "4+",
+          "5",
+          "0",
+          "1"
+        ]
+      ],
+      "abilities": {
+        "core": [
+          "Infiltrators",
+          "Lone Operative",
+          "Stealth"
+        ],
+        "faction": "For the Greater Good",
+        "unit": [
+          {
+            "name": "Agile Combatant",
+            "text": "This model is eligible to shoot in a turn in which it Fell Back."
+          },
+          {
+            "name": "Hero of the Empire (Aura)",
+            "text": "While a friendly T'au Empire unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+          }
+        ],
+        "wargear": [
+          {
+            "name": "Advanced Guardian Drone",
+            "text": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll."
+          },
+          {
+            "name": "Command-link Drone (Aura)",
+            "text": "While a friendly T'au Empire unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Commander Farsight",
+      "abilities": {
+        "core": [
+          "Leader",
+          "Deep Strike"
+        ],
+        "faction": "For the Greater Good"
+      },
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 120
+      }
+    },
+    {
+      "name": "Commander in Crisis Battlesuit",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 110
+      }
+    },
+    {
+      "name": "Commander in Enforcer Battlesuit",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 135
+      }
+    },
+    {
+      "name": "Commander in Coldstar Battlesuit",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 125
+      }
+    },
+    {
+      "name": "Cadre Fireblade",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 50
+      }
+    },
+    {
+      "name": "Kroot Shaper",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 50
+      }
+    },
+    {
+      "name": "Ethereal",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 50
+      }
+    },
+    {
+      "name": "Aun'Va",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 65
+      }
+    },
+    {
+      "name": "Aun'Shi",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 60
+      }
+    },
+    {
+      "name": "Darkstrider",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 75
+      }
+    },
+    {
+      "name": "Longstrike",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 170
+      }
+    },
+    {
+      "name": "Breacher Team",
+      "points": {
+        "10": 115
+      },
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenade",
+        "Markerlight",
+        "Fire Warrior Strike",
+        "Breacher Team"
+      ],
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "stats": [
+        "6",
+        "3",
+        "4+",
+        "1",
+        "7+",
+        "2"
+      ],
+      "invul": "",
+      "invulv_notes": "",
+      "ranged": [],
+      "melee": [],
+      "abilities": {
+        "faction": "For the Greater Good"
+      }
+    },
+    {
+      "name": "Strike Team",
+      "points": {
+        "10": 100
+      },
+      "keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenade",
+        "Markerlight",
+        "Fire Warrior Strike",
+        "Strike Team"
+      ],
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "stats": [
+        "6",
+        "3",
+        "4+",
+        "1",
+        "7+",
+        "2"
+      ],
+      "invul": "",
+      "invulv_notes": "",
+      "ranged": [],
+      "melee": [],
+      "abilities": {
+        "faction": "For the Greater Good"
+      }
+    },
+    {
+      "name": "Kroot Carnivores",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "10": 75,
+        "20": 150
+      }
+    },
+    {
+      "name": "Krootox Riders",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 35,
+        "2": 70,
+        "3": 105
+      }
+    },
+    {
+      "name": "Crisis Battlesuits",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "3": 195,
+        "6": 390
+      }
+    },
+    {
+      "name": "Stealth Battlesuits",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "3": 75,
+        "6": 150
+      }
+    },
+    {
+      "name": "Ghostkeel Battlesuit",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 170
+      }
+    },
+    {
+      "name": "Firesight Team",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 70
+      }
+    },
+    {
+      "name": "Pathfinder Team",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "10": 120
+      }
+    },
+    {
+      "name": "Piranha",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 55,
+        "2": 110,
+        "3": 165
+      }
+    },
+    {
+      "name": "Vespid Stingwings",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "5": 75
+      }
+    },
+    {
+      "name": "Kroot Hounds",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "4": 30,
+        "8": 60,
+        "12": 90
+      }
+    },
+    {
+      "name": "Broodside Battlesuits",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 110,
+        "2": 220,
+        "3": 330
+      }
+    },
+    {
+      "name": "Riptide Battlesuit",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 235
+      }
+    },
+    {
+      "name": "Hammerhead Gunship",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 145
+      }
+    },
+    {
+      "name": "Skyray Gunship",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 160
+      }
+    },
+    {
+      "name": "Devilfish",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 95
+      }
+    },
+    {
+      "name": "Razorshark Strike Fighter",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 165
+      }
+    },
+    {
+      "name": "Sun Shark Bomber",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 150
+      }
+    },
+    {
+      "name": "Tidewall Sheildline",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 85
+      }
+    },
+    {
+      "name": "Tidewall Droneport",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 85
+      }
+    },
+    {
+      "name": "Tidewall Gunrig",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 90
+      }
+    },
+    {
+      "name": "Stormsurge",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "1": 405
+      }
+    },
+    {
+      "name": "Tactical Drones",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "4": 70,
+        "8": 140,
+        "12": 210
+      }
+    },
+    {
+      "name": "Kroot Farstalkers",
+      "faction": [
+        "T'AU EMPIRE"
+      ],
+      "points": {
+        "12": 105
+      }
+    }
+  ]
+}

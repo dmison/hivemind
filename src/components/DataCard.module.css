@@ -1,0 +1,46 @@
+.datacard {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+table.melee,
+table.ranged {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+table.ranged td:first-child,
+table.melee td:first-child {
+  text-align: left;
+  width: 50%;
+}
+
+table.stats {
+  text-align: center;
+}
+
+table.melee>thead,
+table.ranged>thead,
+table.stats>thead {
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+table.melee>thead td,
+table.ranged>thead td {
+  padding: 5px;
+}
+
+.datacard h1 {
+  margin-top: 0;
+  padding: 5px;
+  color: white
+}
+
+span.small {
+  font-size: small;
+}
