@@ -1,9 +1,334 @@
 {
   "name": "Tyranids",
+  "colour": "#2F1D33",
+  "text": "#ffffff",
   "detachments": [
     {
-      "name": "Invasion Fleet"
+      "name": "Invasion Fleet",
+      "enhancements": [
+        "Adaptive Biology    25 pts ",
+        "Alien Cunning   30 pts ",
+        "Perfectly Adapted   15 pts ",
+        "Synaptic Linchpin    10 pts"
+      ]
     }
   ],
-  "datacards": []
+  "datacards": [
+    {
+      "name": "Barbgaunts",
+      "points": {
+        "5": 50,
+        "10": 100
+      }
+    },
+    {
+      "name": "Biovores",
+      "points": {
+        "1": 40,
+        "2": 80,
+        "3": 120
+      }
+    },
+    {
+      "name": "Broodlord",
+      "points": {
+        "1": 100
+      }
+    },
+    {
+      "name": "Carnifexes",
+      "points": {
+        "1": 125,
+        "2": 250
+      }
+    },
+    {
+      "name": "Deathleaper",
+      "points": {
+        "1": 80
+      }
+    },
+    {
+      "name": "Exocrine",
+      "points": {
+        "1": 135
+      }
+    },
+    {
+      "name": "Gargoyles",
+      "points": {
+        "10": 75,
+        "20": 150
+      }
+    },
+    {
+      "name": "Genestealers",
+      "points": {
+        "5": 90,
+        "10": 180
+      }
+    },
+    {
+      "name": "Harpy",
+      "points": {
+        "1": 170
+      }
+    },
+    {
+      "name": "Haruspex",
+      "points": {
+        "1": 125
+      }
+    },
+    {
+      "name": "Hive Crone",
+      "points": {
+        "1": 200
+      }
+    },
+    {
+      "name": "Hive Guard",
+      "points": {
+        "3": 100,
+        "6": 200
+      }
+    },
+    {
+      "name": "Hive Tyrant",
+      "points": {
+        "1": 220
+      }
+    },
+    {
+      "name": "Hormagaunts",
+      "points": {
+        "10": 70,
+        "20": 140
+      }
+    },
+    {
+      "name": "Lictor",
+      "points": {
+        "1": 75
+      }
+    },
+    {
+      "name": "Maleceptor",
+      "points": {
+        "1": 165
+      }
+    },
+    {
+      "name": "Mawloc",
+      "points": {
+        "1": 145
+      }
+    },
+    {
+      "name": "Mucolid Spores",
+      "points": {
+        "1": 45,
+        "2": 90
+      }
+    },
+    {
+      "name": "Neurogaunts",
+      "points": {
+        "11": 45,
+        "22": 90
+      }
+    },
+    {
+      "name": "Neurotyrant",
+      "points": {
+        "1": 105
+      }
+    },
+    {
+      "name": "Old One Eye",
+      "points": {
+        "1": 140
+      }
+    },
+    {
+      "name": "Parasite of Mortrex",
+      "points": {
+        "1": 90
+      }
+    },
+    {
+      "name": "Psychophage",
+      "points": {
+        "1": 125
+      }
+    },
+    {
+      "name": "Pyrovores",
+      "points": {
+        "1": 30,
+        "2": 60,
+        "3": 90
+      }
+    },
+    {
+      "name": "Raveners",
+      "points": {
+        "3": 75,
+        "6": 150
+      }
+    },
+    {
+      "name": "Ripper Swarms",
+      "points": {
+        "3": 35,
+        "6": 70
+      }
+    },
+    {
+      "name": "Screamer-Killer",
+      "points": {
+        "1": 180
+      }
+    },
+    {
+      "name": "Spore MInes",
+      "points": {
+        "3": 50,
+        "6": 100
+      }
+    },
+    {
+      "name": "Sporocyst",
+      "points": {
+        "1": 145
+      }
+    },
+    {
+      "name": "Termagants",
+      "points": {
+        "10": 60,
+        "20": 120
+      }
+    },
+    {
+      "name": "Tervigon",
+      "points": {
+        "1": 200
+      }
+    },
+    {
+      "name": "The Swarmlord",
+      "points": {
+        "1": 250
+      }
+    },
+    {
+      "name": "Toxicrene",
+      "points": {
+        "1": 200
+      }
+    },
+    {
+      "name": "Trygon",
+      "points": {
+        "1": 180
+      }
+    },
+    {
+      "name": "Tyranid Warriors with Melee Bio-weapons",
+      "points": {
+        "3": 90,
+        "6": 180
+      }
+    },
+    {
+      "name": "Tyranid Warriors with Ranged Bio-weapons",
+      "points": {
+        "3": 70,
+        "6": 140
+      }
+    },
+    {
+      "name": "Tyrannocyte",
+      "points": {
+        "1": 105
+      }
+    },
+    {
+      "name": "Tyrannofex",
+      "points": {
+        "1": 200
+      }
+    },
+    {
+      "name": "Tyrant Guard",
+      "points": {
+        "3": 95,
+        "6": 190
+      }
+    },
+    {
+      "name": "Venomthropes",
+      "points": {
+        "3": 70,
+        "6": 140
+      }
+    },
+    {
+      "name": "Von Ryan’s Leapers",
+      "points": {
+        "3": 75,
+        "6": 150
+      }
+    },
+    {
+      "name": "Winged Hive Tyrant",
+      "points": {
+        "1": 195
+      }
+    },
+    {
+      "name": "Winged Tyranid Prime",
+      "points": {
+        "1": 80
+      }
+    },
+    {
+      "name": "Zoanthropes",
+      "points": {
+        "3": 90,
+        "6": 180
+      }
+    },
+    {
+      "name": "Barbed Hierodule",
+      "points": {
+        "1": 305
+      }
+    },
+    {
+      "name": "Harridan",
+      "points": {
+        "1": 655
+      }
+    },
+    {
+      "name": "Hierophant",
+      "points": {
+        "1": 810
+      }
+    },
+    {
+      "name": "Scythed Hierodule",
+      "points": {
+        "1": 305
+      }
+    }
+  ]
 }
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+{
+  "name": "Leagues OF Votann",
+  "colour": "#472F18",
+  "text": "#ffffff",
+  "detachments": [
+    {
+      "name": "Oathband",
+      "enhancements": [
+        "A Long List  15 pts",
+        "Appraising Glare   20 pts",
+        "Grim Demeanour   20 pts",
+        "Wayfarer’s Grace   25 pts"
+      ]
+    }
+  ],
+  "datacards": [
+    {
+      "name": "Brôkhyr Iron-master",
+      "points": {
+        "5": 75
+      }
+    },
+    {
+      "name": "Brôkhyr Thunderkyn",
+      "points": {
+        "3": 95,
+        "6": 190
+      }
+    },
+    {
+      "name": "Cthonian Beserks",
+      "points": {
+        "5": 135,
+        "10": 270
+      }
+    },
+    {
+      "name": "Einhyr Champion",
+      "points": {
+        "1": 75
+      }
+    },
+    {
+      "name": "Grimnyr",
+      "points": {
+        "3": 75
+      }
+    },
+    {
+      "name": "Hearthkyn Warriors",
+      "points": {
+        "10": 135
+      }
+    },
+    {
+      "name": "Hekaton Land Fortress",
+      "points": {
+        "1": 245
+      }
+    },
+    {
+      "name": "Hernkyn Pioneers",
+      "points": {
+        "3": 105,
+        "6": 210
+      }
+    },
+    {
+      "name": "Kâhl",
+      "points": {
+        "1": 90
+      }
+    },
+    {
+      "name": "Sagitaur",
+      "points": {
+        "1": 120
+      }
+    },
+    {
+      "name": "Ûthar the Destined",
+      "points": {
+        "1": 115
+      }
+    },
+    {
+      "name": "Einhyr Hearthguard",
+      "points": {
+        "5": 165,
+        "10": 330
+      }
+    }
+  ]
+}

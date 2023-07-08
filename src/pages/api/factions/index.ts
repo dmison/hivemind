@@ -10,6 +10,10 @@ export default function handler (req: NextApiRequest, res: NextApiResponse) {
     "tyranids": {
       "name": "Tyranids",
       "data": "/api/factions/tyranids"
+    },
+    "votann": {
+      "name": "Leagues of Votann",
+      "data": "/api/factions/votann"
     }
   })
 }

@@ -5,6 +5,12 @@
   "detachments": [
     {
       "name": "Kauyon",
+      "enhancements": [
+        "Exemplar of the Kauyon 15 pts ",
+        "Precision of the Patient Hunter  20 pts",
+        "Puretide Engram Neurochip  25 pts",
+        "Through Unity, Devastation 20 pts"
+      ],
       "restrictions": [
         {
           "has": {
@@ -120,21 +126,21 @@
         "unit": [
           {
             "name": "Agile Combatant",
-            "text": "This model is eligible to shoot in a turn in which it Fell Back."
+            "text": "This model is eligible to shoot in a turn in which it Fell Back"
           },
           {
             "name": "Hero of the Empire (Aura)",
-            "text": "While a friendly T'au Empire unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
+            "text": "While a friendly T'au Empire unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1"
           }
         ],
         "wargear": [
           {
             "name": "Advanced Guardian Drone",
-            "text": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll."
+            "text": "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll"
           },
           {
             "name": "Command-link Drone (Aura)",
-            "text": "While a friendly T'au Empire unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+            "text": "While a friendly T'au Empire unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP"
           }
         ]
       }
@@ -527,6 +533,61 @@
       ],
       "points": {
         "12": 105
+      }
+    },
+    {
+      "name": "AX-1-0 Tiger Shark",
+      "points": {
+        "1": 315
+      }
+    },
+    {
+      "name": "Barracuda",
+      "points": {
+        "1": 220
+      }
+    },
+    {
+      "name": "Manta",
+      "points": {
+        "1": 2100
+      }
+    },
+    {
+      "name": "Remora Stealth Drones",
+      "points": {
+        "2": 160
+      }
+    },
+    {
+      "name": "R’varna Battlesuit",
+      "points": {
+        "1": 235
+      }
+    },
+    {
+      "name": "Ta’unar Supremacy Armour",
+      "points": {
+        "1": 685
+      }
+    },
+    {
+      "name": "Tetras",
+      "points": {
+        "2": 80,
+        "4": 160
+      }
+    },
+    {
+      "name": "Tiger Shark",
+      "points": {
+        "1": 275
+      }
+    },
+    {
+      "name": "Y’vahra Battlesuit",
+      "points": {
+        "1": 235
       }
     }
   ]
