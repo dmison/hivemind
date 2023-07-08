@@ -7,6 +7,13 @@ export default function DataCard ({ data, colour }: { data: iDataCard, colour: [
   return (
     <div className={styles.datacard}>
       <h1 style={s}>{data.name}</h1>
+      <section className="styles.points">
+        <ul>
+          {Object.keys(data.points).map(c =>
+            <li key={c}>{c} model{parseInt(c) > 1 ? 's' : ''}: {data.points[c]} points</li>
+          )}
+        </ul>
+      </section>
       {data?.stats ?
         <table className={ styles.stats }>
           <thead>
