@@ -1,17 +1,7 @@
 export interface iPoints {
-  "1"?: number
-  "2"?: number
-  "3"?: number
-  "4"?: number
-  "5"?: number
-  "6"?: number
-  "7"?: number
-  "8"?: number
-  "9"?: number
-  "10"?: number
+  [key: string]: number
 }
 export type iWeapon = [string, string[], string, string, string, string, string, string]
-//Array<string | string[]>
 
 
 export interface iDataCard {
