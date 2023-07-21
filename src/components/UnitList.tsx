@@ -1,19 +1,26 @@
-import styles from './UnitList.module.css'
-import { iDataCard } from '@/components/DataCard.type'
+// import styles from './UnitList.module.css'
+import { iDataCard } from '@/components/DataCard/DataCard.type'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Link from 'next/link'
 
 export interface UnitListProps {
   datacards: iDataCard[]
-  selected: string
-  onSelect: any
+  faction: string
 }
 
-export default function UnitList ({ datacards, selected, onSelect }: UnitListProps) {
+export default function UnitList ({ datacards, faction }: UnitListProps) {
   
+  if (!datacards) return ('loading...')
   return (
-    <ul className={styles.units}>
+
+    <ListGroup>
       {datacards.map(u =>
-        <li key={u.name} className={selected === u.name ? styles.selected : ''} onClick={()=>onSelect(u.name)}>{ u.name }</li>
+        <ListGroup.Item action key={u.name}
+
+        >
+          <Link href={`/builder/${faction}/datacard/${u.name}`}>{u.name}</Link>
+        </ListGroup.Item> 
         )}
-    </ul>
+    </ListGroup>
   )
 }

@@ -1,6 +1,7 @@
 .datacard {
   padding: 10px;
   border: 1px solid black;
+
 }
 
 table.melee,
@@ -16,6 +17,11 @@ table.ranged td:first-child,
 table.melee td:first-child {
   text-align: left;
   width: 50%;
+}
+
+table.ranged tr:nth-child(even),
+table.melee tr:nth-child(even) {
+  background-color: lightgrey;
 }
 
 table.stats {
@@ -43,4 +49,22 @@ table.ranged>thead td {
 
 span.small {
   font-size: small;
+}
+
+ul.keywords {
+  list-style: none;
+  margin: 0 0 5px 0;
+  padding: 0;
+  display: inline-block;
+}
+
+ul.keywords li {
+  display: inline-block;
+  border: 1px dashed grey;
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 3px;
+  padding: 2px 3px;
+  margin-right: 5px;
+  line-height: 1rem;
 }

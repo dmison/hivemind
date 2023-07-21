@@ -1,21 +1,21 @@
-import styles from './FactionList.module.css'
-// import tau from '@/data/tau-empire.json'
-// import tyranids from '@/data/tyranids.json'
-
+// import styles from './FactionList.module.css'
+import ListGroup from 'react-bootstrap/ListGroup'
+import Link from 'next/link'
 export interface FactionListProps {
   factions: any
-  selected: string
-  onSelect: any
   isLoading: Boolean
 }
 
-export default function FactionList ({ factions, selected, onSelect, isLoading }: FactionListProps) {
+export default function FactionList ({ factions, isLoading }: FactionListProps) {
     if ( !factions || isLoading ) return <div>Loading...</div>
       return (
-    <ul className={styles.factions}>
+        <ListGroup>
       {Object.keys(factions).map(f =>
-        <li key={f}  className={selected === f ? styles.selected : ''} onClick={()=>onSelect(f)}>{ factions[f]['name'] }</li>
-        )}
-    </ul>
+        <ListGroup.Item
+          key={f} action>
+          <Link href={`/builder/${f}`}>{factions[f].name}</Link>
+        </ListGroup.Item>
+      )}
+        </ListGroup>
   )
 }
