@@ -1,8 +1,6 @@
 import styles from './DataCard.module.css'
 
-import { iDataCard } from '@/components/DataCard/DataCard.type'
 import { useDatacard } from '@/hooks/useDataCard'
-import { Suspense } from 'react'
 
 export default function DataCard ({ name, faction }: { name: string, faction: string }) {
   const { data, isLoading } = useDatacard(faction, name)

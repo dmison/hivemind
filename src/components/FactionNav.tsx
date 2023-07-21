@@ -25,10 +25,7 @@ export default function FactionNav ({ faction_key }: { faction_key: string }) {
       ))}
 
       <ListGroup.Item><strong>Units</strong></ListGroup.Item>
-      <UnitList
-        datacards={faction?.datacards}
-        faction={faction_key}
-      />
+      <UnitList faction_key={faction_key} />
 
     </ListGroup>
   )
