@@ -60,6 +60,9 @@ ul.keywords {
 
 ul.keywords li {
   display: inline-block;
+}
+
+.keyword {
   border: 1px dashed grey;
   background-color: #f7f7f7;
   color: black;

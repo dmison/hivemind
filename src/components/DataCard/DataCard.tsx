@@ -23,12 +23,12 @@ export default function DataCard ({ name, faction }: { name: string, faction: st
       <section className={styles.keywords}>
         <div>
           Keywords: <ul className={styles.keywords}>
-            {data.keywords?.map(k => <li key={k}>{k}</li>)}
+            {data.keywords?.map(k => <li key={k} className={styles.keyword}>{k}</li>)}
           </ul>
         </div>
         <div>
           Faction Keywords: <ul className={styles.keywords}>
-            {data.faction_keywords?.map(k => <li key={k}>{k}</li>)}
+            {data.faction_keywords?.map(k => <li key={k} className={styles.keyword}>{k}</li>)}
           </ul>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function DataCard ({ name, faction }: { name: string, faction: st
             <tbody>
               {data.ranged.map((r, i) =>
                 <tr key={i}>
-                  <td>{r[0]} {r[1].length ? <span className={styles.small}>[{r[1].map(w => w)}]</span> : ''}</td>
+                  <td>{r[0]} {r[1].length ? <span className={`${styles.small} ${styles.keyword}`}>{r[1].map(w => w)}</span> : ''}</td>
                   <td>{r[2]}</td>
                   <td>{r[3]}</td>
                   <td>{r[4]}</td>
@@ -103,7 +103,7 @@ export default function DataCard ({ name, faction }: { name: string, faction: st
             <tbody>
               {data.melee.map((r, i) =>
                 <tr key={i}>
-                  <td>{r[0]} {r[1].length ? <span className={styles.small}>[{r[1].map(w => w)}]</span> : ''}</td>
+                  <td>{r[0]} {r[1].length ? <span className={`${styles.small} ${styles.keyword}`}>{r[1].map(w => w)}</span> : ''}</td>
                   <td>{r[2]}</td>
                   <td>{r[3]}</td>
                   <td>{r[4]}</td>
