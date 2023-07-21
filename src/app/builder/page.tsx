@@ -2,6 +2,7 @@
 
 import styles from './builder.module.css'
 import DataCard from '@/components/DataCard/DataCard'
+import ArmyRules from '@/components/ArmyRules'
 
 import NavCol from '@/components/NavCol'
 import Container from 'react-bootstrap/Container'
@@ -29,7 +30,9 @@ export default function BuilderPage ({ params }: { params: { faction?: string, d
           <NavCol urlFaction={faction ?? ''} />
         </Col>
         <Col className={styles.mainCol}>
-          {datacard ? <DataCard name={datacard} faction={faction} /> : null} </Col>
+          {faction && datacard ? <DataCard name={datacard} faction={faction} /> : null}
+          {faction && !datacard && !detachment ? <ArmyRules url_faction={faction} /> : null}
+        </Col>
       </Row>
     </Container>
 
