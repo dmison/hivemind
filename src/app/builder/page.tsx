@@ -3,6 +3,7 @@
 import styles from './builder.module.css'
 import DataCard from '@/components/DataCard/DataCard'
 import ArmyRules from '@/components/ArmyRules'
+import Detachment from '@/components/Detachment'
 
 import NavCol from '@/components/NavCol'
 import Container from 'react-bootstrap/Container'
@@ -31,6 +32,8 @@ export default function BuilderPage ({ params }: { params: { faction?: string, d
         </Col>
         <Col className={styles.mainCol}>
           {faction && datacard ? <DataCard name={datacard} faction={faction} /> : null}
+          {faction && detachment ? <Detachment url_faction={faction} detachment_name={detachment} /> : null}
+
           {faction && !datacard && !detachment ? <ArmyRules url_faction={faction} /> : null}
         </Col>
       </Row>

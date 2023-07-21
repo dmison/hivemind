@@ -14,9 +14,10 @@ export default function FactionNav ({ faction_key }: { faction_key: string }) {
       </ListGroup.Item>
       <ListGroup.Item><strong>{faction?.name}</strong></ListGroup.Item>
       <ListGroup.Item action>
-        Army Rules
+        <Link href={`/builder/${faction_key}`}>Army Rules</Link>
+
       </ListGroup.Item>
-      <ListGroup.Item><strong>Detactments</strong></ListGroup.Item>
+      <ListGroup.Item><strong>Detachments</strong></ListGroup.Item>
       {faction?.detachments?.map(d => (
         <ListGroup.Item key={d.name} action>
           <Link href={`/builder/${faction_key}/detachment/${d.name}`}>{d.name}</Link>
