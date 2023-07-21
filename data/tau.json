@@ -1,5 +1,5 @@
 {
-  "name": "Tau Empire",
+  "name": "T'AU EMPIRE",
   "colour": "#355761",
   "text": "#ffffff",
   "detachments": [
@@ -38,14 +38,14 @@
         "1": 140
       },
       "keywords": [
-        "Infantry",
-        "Fly",
-        "Character",
-        "Epic Hero",
-        "Battlesuit",
-        "Commander Shadowsun"
+        "INFANTRY",
+        "FLY",
+        "CHARACTER",
+        "EPIC HERO",
+        "BATTLESUIT",
+        "COMMANDER SHADOWSUN"
       ],
-      "faction": [
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "stats": [
@@ -147,6 +147,18 @@
     },
     {
       "name": "Commander Farsight",
+      "keywords": [
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Character",
+        "Epic Hero",
+        "Battlesuit",
+        "Commander Farsight"
+      ],
+      "faction_keywords": [
+        "T'AU EMPIRE"
+      ],
       "abilities": {
         "core": [
           "Leader",
@@ -154,16 +166,14 @@
         ],
         "faction": "For the Greater Good"
       },
-      "faction": [
-        "T'AU EMPIRE"
-      ],
       "points": {
         "1": 120
       }
     },
     {
       "name": "Commander in Crisis Battlesuit",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -172,7 +182,8 @@
     },
     {
       "name": "Commander in Enforcer Battlesuit",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -181,7 +192,8 @@
     },
     {
       "name": "Commander in Coldstar Battlesuit",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -190,7 +202,8 @@
     },
     {
       "name": "Cadre Fireblade",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -199,7 +212,8 @@
     },
     {
       "name": "Kroot Shaper",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -208,7 +222,8 @@
     },
     {
       "name": "Ethereal",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -217,7 +232,8 @@
     },
     {
       "name": "Aun'Va",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -226,7 +242,8 @@
     },
     {
       "name": "Aun'Shi",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -235,7 +252,8 @@
     },
     {
       "name": "Darkstrider",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -244,7 +262,8 @@
     },
     {
       "name": "Longstrike",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -261,10 +280,10 @@
         "Battleline",
         "Grenade",
         "Markerlight",
-        "Fire Warrior Strike",
+        "Fire Warrior",
         "Breacher Team"
       ],
-      "faction": [
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "stats": [
@@ -293,10 +312,10 @@
         "Battleline",
         "Grenade",
         "Markerlight",
-        "Fire Warrior Strike",
+        "Fire Warrior",
         "Strike Team"
       ],
-      "faction": [
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "stats": [
@@ -317,7 +336,8 @@
     },
     {
       "name": "Kroot Carnivores",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -327,7 +347,8 @@
     },
     {
       "name": "Krootox Riders",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -338,7 +359,8 @@
     },
     {
       "name": "Crisis Battlesuits",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -348,7 +370,8 @@
     },
     {
       "name": "Stealth Battlesuits",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -358,7 +381,8 @@
     },
     {
       "name": "Ghostkeel Battlesuit",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -367,7 +391,8 @@
     },
     {
       "name": "Firesight Team",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -376,7 +401,8 @@
     },
     {
       "name": "Pathfinder Team",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -385,7 +411,8 @@
     },
     {
       "name": "Piranha",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -396,7 +423,8 @@
     },
     {
       "name": "Vespid Stingwings",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -405,7 +433,8 @@
     },
     {
       "name": "Kroot Hounds",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -416,7 +445,8 @@
     },
     {
       "name": "Broodside Battlesuits",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -427,7 +457,8 @@
     },
     {
       "name": "Riptide Battlesuit",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -436,7 +467,8 @@
     },
     {
       "name": "Hammerhead Gunship",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -445,7 +477,8 @@
     },
     {
       "name": "Skyray Gunship",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -454,7 +487,8 @@
     },
     {
       "name": "Devilfish",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -463,7 +497,8 @@
     },
     {
       "name": "Razorshark Strike Fighter",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -472,7 +507,8 @@
     },
     {
       "name": "Sun Shark Bomber",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -481,7 +517,8 @@
     },
     {
       "name": "Tidewall Sheildline",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -490,7 +527,8 @@
     },
     {
       "name": "Tidewall Droneport",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -499,7 +537,8 @@
     },
     {
       "name": "Tidewall Gunrig",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -508,7 +547,8 @@
     },
     {
       "name": "Stormsurge",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -517,7 +557,8 @@
     },
     {
       "name": "Tactical Drones",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
@@ -528,7 +569,8 @@
     },
     {
       "name": "Kroot Farstalkers",
-      "faction": [
+      "keywords": [],
+      "faction_keywords": [
         "T'AU EMPIRE"
       ],
       "points": {
