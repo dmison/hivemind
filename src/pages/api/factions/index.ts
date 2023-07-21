@@ -4,8 +4,8 @@ import { NextApiResponse, NextApiRequest } from 'next'
 export default function handler (req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json({
     "tau": {
-      "name": "Tau Empire",
-      "data": "/api/factions/tau-empire"
+      "name": "T'au Empire",
+      "data": "/api/factions/tau"
     },
     "tyranids": {
       "name": "Tyranids",

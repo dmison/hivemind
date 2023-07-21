@@ -7,7 +7,8 @@ export type iWeapon = [string, string[], string, string, string, string, string,
 export interface iDataCard {
   name: string
   points: iPoints
-  keywords?: string[]
+  keywords: string[]
+  faction_keywords: string[]
   faction?: string[]
   stats?: string[]
   invul?: string
@@ -20,4 +21,6 @@ export interface iDataCard {
     unit?: { name: string, text: string }[]
     wargear?: { name: string, text: string }[]
   }
+  colour?: string
+  text?: string
 }
