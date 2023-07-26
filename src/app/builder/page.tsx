@@ -35,6 +35,7 @@ export default function BuilderPage ({ params }: { params: { faction?: string, d
           {faction && detachment ? <Detachment url_faction={faction} detachment_name={detachment} /> : null}
 
           {faction && !datacard && !detachment ? <ArmyRules url_faction={faction} /> : null}
+          {!faction && !datacard && !detachment ? <div>Pick a faction to get started.</div> : null}
         </Col>
       </Row>
     </Container>
