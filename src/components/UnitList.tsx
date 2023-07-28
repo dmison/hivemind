@@ -1,4 +1,4 @@
-// import styles from './UnitList.module.css'
+'use client'
 import { iDataCard } from '@/components/DataCard/DataCard.type'
 import ListGroup from 'react-bootstrap/ListGroup'
 import { useFaction } from '@/hooks/useFaction'

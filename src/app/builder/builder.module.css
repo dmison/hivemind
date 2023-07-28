@@ -5,6 +5,19 @@
   padding: 0;
   margin: 0;
 }
+.navCol {
+  background-color: lightgray;
+  padding: 5px;
+  overflow-y: scroll;
+  height: 100vh;
+  max-width: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.content {
+  flex-grow: 1;
+}
 
 /*
 .factions {

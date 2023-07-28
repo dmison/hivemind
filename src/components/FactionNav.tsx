@@ -1,3 +1,5 @@
+'use client'
+
 import { useFaction } from '@/hooks/useFaction'
 import { useFactionList } from '@/hooks/useFactionList'
 import Link from 'next/link'
@@ -15,8 +17,8 @@ export default function FactionNav ({ faction_key }: { faction_key: string }) {
       <ListGroup.Item><strong>{faction?.name}</strong></ListGroup.Item>
       <ListGroup.Item action>
         <Link href={`/builder/${faction_key}`}>Army Rules</Link>
-
       </ListGroup.Item>
+
       <ListGroup.Item><strong>Detachments</strong></ListGroup.Item>
       {faction?.detachments?.map(d => (
         <ListGroup.Item key={d.name} action>
@@ -24,7 +26,7 @@ export default function FactionNav ({ faction_key }: { faction_key: string }) {
         </ListGroup.Item>
       ))}
 
-      <ListGroup.Item><strong>Units</strong></ListGroup.Item>
+      <ListGroup.Item><strong>Units</strong></ListGroup.Item>      
       <UnitList faction_key={faction_key} />
 
     </ListGroup>

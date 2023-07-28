@@ -1,3 +1,4 @@
+'use client'
 // import styles from './builder.module.css'
 import FactionList from '@/components/FactionList'
 interface iFaction {

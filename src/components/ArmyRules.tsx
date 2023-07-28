@@ -1,3 +1,4 @@
+'use client'
 import { useFaction } from "@/hooks/useFaction"
 
 export default function ArmyRules ({ url_faction }: { url_faction: string }) {
